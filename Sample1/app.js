@@ -71,4 +71,6 @@ class App {
     }
 }
 
-new App();
+window.onload = () => {
+    new App();
+};
