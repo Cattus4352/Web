@@ -86,8 +86,8 @@ export class Dialog {
     }
 
     move(point) {
-        if(this.idDown) {
-            this.target = this.startPos.clone().add(point).subtract
+        if(this.isDown) {
+            this.target = this.startPos.clone().add(point).subtract(this.downPos);
         }
     }
 

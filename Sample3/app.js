@@ -41,7 +41,7 @@ class App {
         this.ctx.shadowOffsetX = 0;
         this.ctx.shadowOffsetY = 3;
         this.ctx.shadowBlur = 6;
-        this.ctx.shadowColor = 'rgba(0, 0, 0, 0.1)';
+        this.ctx.shadowColor = 'rgba(0, 0, 0, 0.1 )';
 
         this.ctx.lineWidth = 2;
         
@@ -59,8 +59,8 @@ class App {
         }
 
         if(this.curItem) {
-            this.ctx.fillStyle = '#ff4330';
-            this.ctx.strokeStyle = '#ff4330';
+            this.ctx.fillStyle = '#ff4338';
+            this.ctx.strokeStyle = '#ff4338';
 
             this.ctx.beginPath();
             this.ctx.arc(this.mousePos.x, this.mousePos.y, 8, 0, Math.PI * 2);
